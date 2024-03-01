@@ -14,7 +14,7 @@ void enter_region(int process) /*process is 0 or 1 */
     turn =process;
     while (turn ==process && interested[other] ==TRUE)
     {
-        /*busy waiting*/
+        printf("Busy waiting!");
     }
 }
  void leave_region(int process)
